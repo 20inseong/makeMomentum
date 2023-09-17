@@ -1,0 +1,15 @@
+.clockPosition{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.datePosition{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}

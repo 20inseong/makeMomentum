@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMomentum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="src/clock.js"></script>
+    <form id="logInForm" class="hidden"> 
+        <input id="ID" type="text" required placeholder="ID">
+    </form>
+
+      <div id="btnToDo">
+        <button class="todoBtn">To Do List</button>
+      </div>
+      <div id="weather">
+        <span></span><br>
+        <span></span>
+    </div>
+    <div class="modal">
+        <div class="modal_body">
+            <div class="title">
+                What will you do?
+            </div>
+            <form id="toDo-form">
+                <input type="text" placeholder="Write and Press Enter" required>
+            </form>
+            <h2>To Do List</h2>
+            <div class="useIt">*Press checkbox if you done!*</div>
+            <ul id="toDo-list"></ul>
+        </div>
+        <button class="close-area todoBtn">Done!</button>
+      </div>
+</body>
+<script src="src/logIn.js"></script>
+<script src="src/backImg.js"></script>
+<script src="src/weather.js"></script>
+<script src="src/modal.js"></script>
+<script src="src/toDo.js"></script>
+</html>

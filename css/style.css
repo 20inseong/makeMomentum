@@ -1,0 +1,11 @@
+@import "body.css";
+@import "clock.css";
+@import "backgroundImg.css";
+@import "logInForm.css";
+@import "toDo.css";
+@import "modal.css";
+@import "weather.css";
+
+.writeColor{
+    color:white;
+}

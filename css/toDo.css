@@ -1,0 +1,62 @@
+#btnToDo{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}
+
+.todoBtn{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .todoBtn:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  .todoBtn:before,.todoBtn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  .todoBtn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .todoBtn:hover:before,.todoBtn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  #toDo-form input{
+    text-align: center;
+    width: 300px;
+    height: 32;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    color: black;
+  }
+
+  .ChangeBtn{
+    background-color: orange;
+  }
+
+  #toDo-list{
+    list-style-type: none;
+}
